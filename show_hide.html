@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>
+        show hide  div using JS
+    </title>
+    <style>
+        #box{
+        height:200px;
+        width:200px;
+        background-color: blue;
+    }
+    </style>
+    <script>
+        function show(){
+            var element=document.getElementById("box");
+            element.style.display="block";
+        }
+         function hide(){
+            var element=document.getElementById("box");
+            element.style.display="none";
+        }
+     </script>
+</head>
+<body>
+    <div id="box"></div>
+    <button id="show" onclick="show()">Show</button>
+    <button id="hide" onclick="hide()">Hide</button>
+</body>
+</html>
